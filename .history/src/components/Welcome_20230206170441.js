@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 
 const Welcome = ({ name }) => {
     let say = `Hey${name}!`;
-    let greetingMessage = `Welcome to Newton School.`;
+    let greetingMessage=`Welcome to AccioJob ${name}`
     return (
         <div>
             <h1>{say}</h1>
@@ -12,5 +12,6 @@ const Welcome = ({ name }) => {
       </div>
     )
   }
+
 
 export default Welcome

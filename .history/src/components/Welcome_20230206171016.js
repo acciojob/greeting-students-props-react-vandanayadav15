@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 
 const Welcome = ({ name }) => {
     let say = `Hey${name}!`;
-    let greetingMessage = `Welcome to Newton School.`;
+    let greetingMessage = ``
     return (
         <div>
             <h1>{say}</h1>
